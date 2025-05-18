@@ -43,14 +43,10 @@ Based on the predicted probability:
 
 Enjoy exploring your risk assessment!
 
-## 📝 Explore Behind the Scenes
-
-Peek into `notebooks/diabetes_pipeline.ipynb` to see data cleaning, SMOTE balancing, model training, and insights.
-
 ## ❤️ Thank You
 
 Feel free to ⭐ the repo, open issues, or suggest improvements. Happy exploring and stay healthy!
 
-— Sudipta D
+— Sudipta Das
 
 
