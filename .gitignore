@@ -1,32 +1,30 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.ipynb_checkpoints
+*$py.class
 
-# Virtual environments
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+.env/
+.venv/
 env/
 venv/
 ENV/
-.venv/
 
-# Jupyter Notebook hidden files
-.ipynb_checkpoints/
-
-# VS Code
+# VS Code settings
 .vscode/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Model and data artifacts
-*.pkl
-*.csv
-*.xlsx
-*.h5
-
-# Streamlit config
-.streamlit/
-
-# Logs
+# Python logs
 *.log
+
+# Model artifacts
+model/
+*.pkl
+
+# Streamlit cache
+.streamlit/
