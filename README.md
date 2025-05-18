@@ -21,7 +21,7 @@ Based on the predicted probability:
 1. **Clone** this repo:
 
    ```bash
-   ```
+  
 
 git clone [https://github.com/Sudipta-D/diabetes-predictor.git](https://github.com/Sudipta-D/diabetes-predictor.git)
 cd diabetes-predictor
