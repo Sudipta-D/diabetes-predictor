@@ -39,7 +39,7 @@ Based on the predicted probability:
 
 4. **Visit** the app in your browser:
 
-   > [Link of the app]((https://sudipta-d-diabetes-predictor.streamlit.app/))
+   > [Link of the app](https://sudipta-d-diabetes-predictor.streamlit.app/)
 
 Enjoy exploring your risk assessment!
 
