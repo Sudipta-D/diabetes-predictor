@@ -4,7 +4,7 @@
 
 ## 💡 What It Does
 
-* Collects your health data (e.g., age, glucose level, BMI)
+* Collects your 21 lifestyle and health indicators(e.g., age, glucose level, BMI, BP, Cholestrol, etc.)
 * Utilizes a trained XGBoost model to calculate diabetes probability
 * Shows a friendly message (healthy, at risk, or diabetic) and displays your exact risk percentage
 
