@@ -20,7 +20,7 @@ This project leverages the balanced BRFSS 2015 dataset to train and evaluate pre
 
 - `Diabetes_binary`: Indicates whether the person has diabetes or not.
 
-  💡 What It Does
+### 💡 What It Does
 
 Collects your health data (e.g., age, glucose level, BMI)
 
@@ -28,7 +28,7 @@ Utilizes a trained XGBoost model to calculate diabetes probability
 
 Shows a friendly message (healthy, at risk, or diabetic) and displays your exact risk percentage
 
-🔍 Risk Categories
+### 🔍 Risk Categories
 
 Based on the predicted probability:
 
