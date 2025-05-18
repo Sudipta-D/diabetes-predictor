@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook hidden files
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model and data artifacts
+*.pkl
+*.csv
+*.xlsx
+*.h5
+
+# Streamlit config
+.streamlit/
+
+# Logs
+*.log
