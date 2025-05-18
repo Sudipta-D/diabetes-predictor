@@ -6,20 +6,6 @@ A machine learning-based Streamlit web application that predicts the likelihood 
 
 This project leverages the balanced BRFSS 2015 dataset to train and evaluate predictive models for early diabetes detection. The system returns a probability score and classification indicating whether a person is likely to have diabetes. It supports informed health decisions with interpretable SHAP explanations.
 
-### 🔧 Tech Stack
-
-- **Language & Environment:** Python  
-- **Data Handling & Analysis:** pandas, NumPy  
-- **Visualization:** matplotlib, seaborn, SHAP  
-- **Modeling:** scikit-learn, XGBoost  
-- **Hyperparameter Tuning:** GridSearchCV, RandomizedSearchCV  
-- **Model Interpretability:** SHAP  
-- **Deployment:** Streamlit  
-
-### 🎯 Target Variable
-
-- `Diabetes_binary`: Indicates whether the person has diabetes or not.
-
 ### 💡 What It Does
 
 Collects your health data (e.g., age, glucose level, BMI)
@@ -37,6 +23,21 @@ Based on the predicted probability:
 50% – 74%: 🔶 You are at risk of diabetes
 
 ≥ 75%: ⚠️ You are diabetic
+
+
+### 🔧 Tech Stack
+
+- **Language & Environment:** Python  
+- **Data Handling & Analysis:** pandas, NumPy  
+- **Visualization:** matplotlib, seaborn, SHAP  
+- **Modeling:** scikit-learn, XGBoost  
+- **Hyperparameter Tuning:** GridSearchCV, RandomizedSearchCV  
+- **Model Interpretability:** SHAP  
+- **Deployment:** Streamlit  
+
+### 🎯 Target Variable
+
+- `Diabetes_binary`: Indicates whether the person has diabetes or not.
 
 ### 📁 Dataset Source
 
