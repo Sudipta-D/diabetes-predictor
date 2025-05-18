@@ -1,52 +1,76 @@
-# Diabetes Predictor
+# 🩺 Diabetes Predictor App
 
-👋 Welcome! This sweet little app predicts the probability of diabetes (as a percentage) based on your health measurements and tells you whether you're likely diabetic or not.
+A machine learning-based Streamlit web application that predicts the likelihood of diabetes in individuals using health and lifestyle data.
 
-## 💡 What It Does
+## 📌 About the Project
 
-* Collects your 21 lifestyle and health indicators(e.g., age, glucose level, BMI, BP, Cholestrol, etc.)
-* Utilizes a trained XGBoost model to calculate diabetes probability
-* Shows a friendly message (healthy, at risk, or diabetic) and displays your exact risk percentage
+This project leverages the balanced BRFSS 2015 dataset to train and evaluate predictive models for early diabetes detection. The system returns a probability score and classification indicating whether a person is likely to have diabetes. It supports informed health decisions with interpretable SHAP explanations.
 
-## 🔍 Risk Categories
+### 🔧 Tech Stack
 
-Based on the predicted probability:
+- **Language & Environment:** Python  
+- **Data Handling & Analysis:** pandas, NumPy  
+- **Visualization:** matplotlib, seaborn, SHAP  
+- **Modeling:** scikit-learn, XGBoost  
+- **Hyperparameter Tuning:** GridSearchCV, RandomizedSearchCV  
+- **Model Interpretability:** SHAP  
+- **Deployment:** Streamlit  
 
-* **< 50%**: ✅ You appear healthy
-* **50% – 74%**: 🔶 You are at risk of diabetes
-* **≥ 75%**: ⚠️ You are diabetic
+### 🎯 Target Variable
 
-## 🛠️ Get Started
+- `Diabetes_binary`: Indicates whether the person has diabetes or not.
 
-1. **Clone** this repository:
+### 📁 Dataset Source
 
-   ```bash
-   git clone https://github.com/Sudipta-D/diabetes-predictor.git
-   cd diabetes-predictor
-   ```
+- Publicly available health dataset: [BRFSS 2015](https://www.cdc.gov/brfss/index.html) (pre-balanced 50-50 for model performance)
 
-2. **Install** the dependencies:
+### 🚀 App Deployment
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+- 🔗 [Live Streamlit App](https://sudipta-d-diabetes-predictor.streamlit.app/)
 
-3. **Run** the Streamlit app:
+---
 
-   ```bash
-   streamlit run app.py
-   ```
+## 📊 Models Used
 
-4. **Visit** the app in your browser:
+- Logistic Regression  
+- Random Forest  
+- XGBoost (Tuned – Final Model)
 
-   > [Link of the app](https://sudipta-d-diabetes-predictor.streamlit.app/)
+## 📈 Evaluation Metrics
 
-Enjoy exploring your risk assessment!
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
+- ROC-AUC  
+- SHAP-based model interpretability
 
-## ❤️ Thank You
+---
 
-Feel free to ⭐ the repo, open issues, or suggest improvements. Happy exploring and stay healthy!
+## 📂 Folder Structure
 
-— Sudipta Das
+```
+├── app.py                     # Streamlit app
+├── data/
+│   └── raw.csv                # Dataset used
+├── images/
+│   └── bg.png                 # UI background image
+├── model/
+│   └── best_xgb_model.pkl     # Tuned XGBoost model
+├── notebooks/
+│   └── diabetes_pipeline.ipynb # Full EDA + training notebook
+├── utils/
+│   └── preprocessing.py       # Custom preprocessing functions
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ✅ Future Enhancements
+
+- Add more visual feedback for predictions
+- Dockerize the app
+- Add user input validation & error handling
 
 
