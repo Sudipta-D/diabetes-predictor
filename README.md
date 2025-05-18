@@ -16,40 +16,34 @@ Based on the predicted probability:
 * **50% – 74%**: 🔶 You are at risk of diabetes
 * **≥ 75%**: ⚠️ You are diabetic
 
-## 🛠️ Get Started
+🛠️ Get Started
 
-1. **Clone** this repo:
+Clone this repository:
 
-   ```bash
-  
-
-git clone [https://github.com/Sudipta-D/diabetes-predictor.git](https://github.com/Sudipta-D/diabetes-predictor.git)
+git clone https://github.com/Sudipta-D/diabetes-predictor.git
 cd diabetes-predictor
 
-````
-2. **Install** dependencies:
-   ```bash
-   ```
+Install the dependencies:
+
 pip install -r requirements.txt
-````
 
-3. **Run** the app:
-
-   ```bash
-   ```
+Run the Streamlit app:
 
 streamlit run app.py
 
-```
+Visit the app in your browser:
 
-Then open your browser at `http://localhost:8501` and enjoy!
+http://localhost:8501
 
-## 📝 Explore Behind the Scenes
-Peek into `notebooks/diabetes_pipeline.ipynb` to see data cleaning, SMOTE balancing, model training, and insights.
+Enjoy exploring your risk assessment!
 
-## ❤️ Thank You
+📝 Explore Behind the Scenes
+
+Peek into notebooks/diabetes_pipeline.ipynb to see data cleaning, SMOTE balancing, model training, and insights.
+
+❤️ Thank You
+
 Feel free to ⭐ the repo, open issues, or suggest improvements. Happy exploring and stay healthy!
 
 — Sudipta D
 
-```
